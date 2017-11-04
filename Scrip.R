@@ -21,4 +21,14 @@ mean_continent_1972 <- gapminder %>%
   filter(year == 1972) %>% 
   group_by(continent) %>% 
   summarise(mean_gdpPercap = mean(gdpPercap))
+
+#Get the population size through time for China
+pop_size_china <- gapminder %>% 
+  filter(country=="China") %>% 
+  select(year, pop)
   
+#get the maximun population size per country for the year 2007
+max_pop_2007 <- gapminder %>% 
+  filter(year==2007 ) %>% 
+  group_by(country) %>% 
+  summarise(max_pop = max(pop)) 
