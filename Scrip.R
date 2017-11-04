@@ -1,6 +1,6 @@
 library(tidyverse)
-download.file("http://fmichonneau.github.io/2017-11-03-gwu/gapminder.csv",
-              "data/gapminder.csv")
+# download.file("http://fmichonneau.github.io/2017-11-03-gwu/gapminder.csv",
+#               "data/gapminder.csv")
 gapminder <- read.csv("data/gapminder.csv")
 
 #calucate the average expectancy by continent 
@@ -16,4 +16,9 @@ life_exp_canada <- gapminder %>%
   filter(country=="Canada" ) %>% 
   select(year,lifeExp)
 
+#get the mean gdp per continent for the year 1972
+mean_continent_1972 <- gapminder %>% 
+  filter(year == 1972) %>% 
+  group_by(continent) %>% 
+  summarise(mean_gdpPercap = mean(gdpPercap))
   
