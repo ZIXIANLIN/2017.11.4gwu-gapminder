@@ -1,5 +1,3 @@
-# 2017.11.4gwu-gapminder
-Intro to git 
 ## Introduction
 * crawler function: synchronized crawler 
 * crawler method: observe the difference of selector path, and iterate 1-20 paths to get the information 
@@ -11,4 +9,4 @@ jsoup-1.10.1.jar
 open the project in the intellij --> click run
 
 ## Results
-![results] (C:\Users\linzi\Desktop\rentCrawler results.PNG)
+![results] (https://github.com/zhewangjoe/CS502-1801/blob/zixianlin/ZixianLin/P2_exam/rentCrawler%20results.PNG)
