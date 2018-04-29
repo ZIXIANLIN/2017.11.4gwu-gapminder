@@ -9,4 +9,4 @@ jsoup-1.10.1.jar
 open the project in the intellij --> click run
 
 ## Results
-![results] (https://github.com/zhewangjoe/CS502-1801/blob/zixianlin/ZixianLin/P2_exam/rentCrawler%20results.PNG)
+![results](https://github.com/zhewangjoe/CS502-1801/blob/zixianlin/ZixianLin/P2_exam/rentCrawler%20results.PNG)
