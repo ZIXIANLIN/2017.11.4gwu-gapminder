@@ -1,26 +1,26 @@
-# Crawle Cragislist
+## Crawle Cragislist
 
-## Introduction
+### Introduction
 * crawler function: synchronized crawler 
 * crawler method: observe the difference of selector path, and iterate 1-20 paths to get the information 
 
-## jar
+### jar
 jsoup-1.10.1.jar
 
-## Run the code
+### Run the code
 open the project in the intellij --> click run
 
-## Results
+### Results
 ![results](https://github.com/zhewangjoe/CS502-1801/blob/zixianlin/ZixianLin/P2_exam/rentCrawler%20results.PNG)
 
-# Spark job
+## Spark job
 
-## avg bid price
-···
-python avgBidPrice.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark/data/ads_0502.txt avgBidPrice
-···
+### avg bid price
 
-## budget/bidPrice ratio
+    python avgBidPrice.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark/data/ads_0502.txt avgBidPrice
 
-  python click_times.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark_job/data/ads_0502.txt /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark_job/data/budget.txt clickTimes
+
+### budget/bidPrice ratio
+
+    python click_times.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark_job/data/ads_0502.txt /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark_job/data/budget.txt clickTimes
 
