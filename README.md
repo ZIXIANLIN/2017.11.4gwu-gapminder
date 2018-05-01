@@ -16,9 +16,9 @@ open the project in the intellij --> click run
 # Spark job
 
 ## avg bid price
-
-   python avgBidPrice.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark/data/ads_0502.txt avgBidPrice
-
+···
+python avgBidPrice.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark/data/ads_0502.txt avgBidPrice
+···
 
 ## budget/bidPrice ratio
 
