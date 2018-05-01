@@ -1,4 +1,4 @@
-#Crawle Cragislist
+# Crawle Cragislist
 
 ## Introduction
 * crawler function: synchronized crawler 
@@ -13,14 +13,14 @@ open the project in the intellij --> click run
 ## Results
 ![results](https://github.com/zhewangjoe/CS502-1801/blob/zixianlin/ZixianLin/P2_exam/rentCrawler%20results.PNG)
 
-#Spark job
+# Spark job
 
-##avg bid price
+## avg bid price
 
 python avgBidPrice.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark/data/ads_0502.txt avgBidPrice
 
 
-##budget/bidPrice ratio
+## budget/bidPrice ratio
 
 python click_times.py /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark_job/data/ads_0502.txt /home/zoe/Desktop/CS502-1801/CS502-1801/ZixianLin/P2_exam/spark_job/data/budget.txt clickTimes
 
